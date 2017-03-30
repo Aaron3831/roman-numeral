@@ -226,8 +226,10 @@ if(split.length===1){
   }
 }
 
+
 var joined = answer.join('')
 console.log(joined)
 $('#result').text(joined)
+$('#man').show()
 });
 });
